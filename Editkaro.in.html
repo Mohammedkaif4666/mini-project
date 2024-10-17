@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Editkaro.in - Portfolio</title>
+  <!-- CSS Link -->
+  <link rel="stylesheet" href="portfolio.css" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Ionicons for Icons -->
+  <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <nav>
+      <img src="images/logo.png" alt="Editkaro.in Logo" class="logo" />
+      <ul>
+        <li><a href="#home" class="under">Home</a></li>
+        <li><a href="#about" class="under">About</a></li>
+        <li><a href="#services" class="under">Services</a></li>
+        <li><a href="#portfolio" class="under">Portfolio</a></li>
+        <li><a href="#contact" class="under">Contact</a></li>
+      </ul>
+      <a href="#contact" class="btn">Get in Touch</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="content">
+      <span class="title">Social Media Marketing & Video Editing Agency</span>
+      <h1>Welcome to <span>Editkaro.in</span></h1>
+      <p>
+        We craft visually stunning and engaging videos tailored to elevate your brand and captivate your audience.
+      </p>
+      <a href="#portfolio" class="btn">View Our Work</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <div class="about-container">
+      <div class="about-image">
+        <img src="images/logo.png" alt="About Editkaro.in">
+      </div>
+      <div class="about-text">
+        <p>
+          At <strong>Editkaro.in</strong>, we specialize in creating compelling video content that resonates with your target audience. 
+          Our expertise spans across various domains, including short-form and long-form videos, gaming content, football edits, 
+          eCommerce advertisements, documentary-style productions, color grading, anime videos, and more.
+        </p>
+        <p>
+          Our mission is to transform your ideas into visually captivating stories that drive engagement and foster brand loyalty. 
+          Partner with us to elevate your digital presence and achieve your marketing goals.
+        </p>
+        <a href="#contact" class="btn">Get Started</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services">
+    <h2>Our Services</h2>
+    <div class="services-container">
+      <div class="service">
+        <ion-icon name="videocam" class="service-icon"></ion-icon>
+        <h3>Video Editing</h3>
+        <p>Professional editing for short-form, long-form, gaming, and more.</p>
+      </div>
+      <div class="service">
+        <ion-icon name="people" class="service-icon"></ion-icon>
+        <h3>Social Media Marketing</h3>
+        <p>Boost your online presence with targeted social media strategies.</p>
+      </div>
+      <div class="service">
+        <ion-icon name="color-palette" class="service-icon"></ion-icon>
+        <h3>Color Grading</h3>
+        <p>Enhance your videos with expert color grading techniques.</p>
+      </div>
+      <div class="service">
+        <ion-icon name="analytics" class="service-icon"></ion-icon>
+        <h3>Analytics & Reporting</h3>
+        <p>Track your performance with detailed analytics and reports.</p>
+      </div>
+      <!-- Add more services as needed -->
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="portfolio">
+    <h2>Our Portfolio</h2>
+    <div class="filter-buttons">
+      <button class="filter-btn active" data-category="all">All</button>
+      <button class="filter-btn" data-category="short">Short-Form</button>
+      <button class="filter-btn" data-category="long">Long-Form</button>
+      <button class="filter-btn" data-category="gaming">Gaming</button>
+      <button class="filter-btn" data-category="football">Football Edits</button>
+      <button class="filter-btn" data-category="ecommerce">eCommerce Ads</button>
+      <button class="filter-btn" data-category="documentary">Documentary Style</button>
+      <button class="filter-btn" data-category="color">Color Grading</button>
+      <button class="filter-btn" data-category="anime">Anime Videos</button>
+      <button class="filter-btn" data-category="ads">Ads</button>
+    </div>
+    <div class="portfolio-container">
+      <!-- Short-Form Video 1 -->
+      <div class="portfolio-item" data-category="short">
+        <img src="images/short videos.jpg" alt="Short-Form Video">
+        <div class="overlay">
+          <a href="https://youtube.com/shorts/edNPc-paB3M?si=0dVgT_uBBNUmiHZR" >        
+          <ion-icon name="play" class="play-icon" ></ion-icon>
+        </a>
+        </div>
+        <div class="portfolio-info">
+          <h3>Short-Form Video</h3>
+        </div>
+      </div>
+
+
+      <!-- Long-Form Video -->
+      <div class="portfolio-item" data-category="long">
+        <img src="images/long videos.jpg" alt="Long-Form Video">
+        <div class="overlay">
+          <a href="https://youtu.be/ZfDpg78OD6g?si=fse4axH5btKLQ6Or">
+          <ion-icon name="play" class="play-icon"></ion-icon>
+          </a>
+        </div>
+        <div class="portfolio-info">
+          <h3>Long-Form Video</h3>
+        </div>
+      </div>
+
+      <!-- Gaming Video -->
+      <div class="portfolio-item" data-category="gaming">
+        <img src="images/gaming videos.jpg" alt="Gaming Video">
+        <div class="overlay">
+          <a href="https://youtu.be/G2bgIOeFC08">
+          <ion-icon name="play" class="play-icon"></ion-icon>
+          </a>
+        </div>
+        <div class="portfolio-info">
+          <h3>Gaming Video </h3>
+        </div>
+      </div>
+
+      <!-- Football Edit  -->
+      <div class="portfolio-item" data-category="football">
+        <img src="images/foot ball.jpg" alt="Football Edit">
+        <div class="overlay">
+          <a href="https://youtu.be/kAvYK_gAr90?si=AaFJfJWy2qaE1Lhv">
+          <ion-icon name="play" class="play-icon"></ion-icon>
+          </a>
+        </div>
+        <div class="portfolio-info">
+          <h3>Football Edit</h3>
+        </div>
+      </div>
+
+      <!-- eCommerce Ad  -->
+      <div class="portfolio-item" data-category="ecommerce">
+        <img src="images/eCommers ad.jpg" alt="eCommerce Ad">
+        <div class="overlay">
+          <a href="https://youtube.com/@vaultofcodes?si=r1vFlMqyKlvmwcud">
+          <ion-icon name="play" class="play-icon"></ion-icon>
+          </a>
+        </div>
+        <div class="portfolio-info">
+          <h3>eCommerce Ad</h3>
+        </div>
+      </div>
+
+      <!-- Documentary Style 1 -->
+      <div class="portfolio-item" data-category="documentary">
+        <img src="images/documentary.jpg" alt="Documentary Style Video">
+        <div class="overlay">
+          <a href="https://youtu.be/6sLPiiqzn-s?si=-W1CLitOKRIE3uXi">
+          <ion-icon name="play" class="play-icon"></ion-icon>
+          </a>
+        </div>
+        <div class="portfolio-info">
+          <h3>Documentary Style</h3>
+        </div>
+      </div>
+
+      <!-- Color Grading Video 1 -->
+      <div class="portfolio-item" data-category="color">
+        <img src="images/color grading.jpg" alt="Color Grading Video">
+        <div class="overlay">
+          <a href="https://youtu.be/pAh83khT1no?si=zNcZCuS5Llfu6UW_">
+          <ion-icon name="play" class="play-icon"></ion-icon>
+          </a>
+        </div>
+        <div class="portfolio-info">
+          <h3>Color Grading Video</h3>
+        </div>
+      </div>
+
+      <!-- Anime Video 1 -->
+      <div class="portfolio-item" data-category="anime">
+        <img src="images/anime.jpg" alt="Anime Video">
+        <div class="overlay">
+          <a href="https://youtu.be/4aur_Pq8qcI?si=9VLER6r-IXxJXJL7">
+          <ion-icon name="play" class="play-icon"></ion-icon>
+          </a>
+        </div>
+        <div class="portfolio-info">
+          <h3>Anime Video</h3>
+        </div>
+      </div>
+
+      <!-- Ad Video 1 -->
+      <div class="portfolio-item" data-category="ads">
+        <img src="images/ad videos.jpg" alt="Ad Video">
+        <div class="overlay">
+          <a href="https://youtu.be/RrVKwIPAFT0?si=NmHhc--Ok8JmyUFC">
+          <ion-icon name="play" class="play-icon"></ion-icon>
+          </a>
+        </div>
+        <div class="portfolio-info">
+          <h3>Ad Video</h3>
+        </div>
+      </div>
+
+      <!-- Add more portfolio items as needed -->
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <div class="contact-container">
+      <div class="contact-info">
+        <h3>Get in Touch</h3>
+        <p><ion-icon name="mail"></ion-icon> Email: contact@editkaro.in</p>
+        <p><ion-icon name="call"></ion-icon> Phone: +1 (234) 567-890</p>
+        <p><ion-icon name="location"></ion-icon> Address: 123 Editing Lane, Creativetown, CT 12345</p>
+        <div class="social-media">
+          <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+          <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+          <a href="#"><ion-icon name="logo-youtube"></ion-icon></a>
+          <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+          <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+        </div>
+      </div>
+      <div class="contact-form">
+        <form action="#" method="POST">
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <input type="text" name="subject" placeholder="Subject" required />
+          <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="footer0">
+      <h1>Editkaro.in</h1>
+    </div>
+    <div class="footer1">
+      Connect with us
+      <div class="social-media">
+        <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+        <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+        <a href="#"><ion-icon name="logo-youtube"></ion-icon></a>
+        <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+        <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+      </div>
+    </div>
+    <div class="footer2">
+      <div class="product">
+        <div class="heading">Products</div>
+        <div class="div">Sell Your Products</div>
+        <div class="div">Advertise</div>
+        <div class="div">Pricing</div>
+        <div class="div">Product Business</div>
+      </div>
+     
+      <div class="company">
+        <div class="heading">Company</div>
+        <div class="div">Complaints</div>
+        <div class="div">Careers</div>
+        <div class="div">Affiliate Marketing</div>
+        <div class="div">Support</div>
+      </div>
+      <div class="get-help">
+        <div class="heading">Get Help</div>
+        <div class="div">Help Center</div>
+        <div class="div">Privacy Policy</div>
+        <div class="div">Terms</div>
+        <div class="div">Login</div>
+      </div>
+    </div>
+    <div class="footer3">Copyright © <span>Editkaro.in</span> 2024</div>
+  </footer>
+
+  <!-- Modal for Video Preview -->
+  <div id="video-modal" class="modal">
+    <span class="close-modal">&times;</span>
+    <iframe id="modal-video" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </div>
+
+  <!-- Ionicons Script -->
+  <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+  <!-- JavaScript Link -->
+  <script src="portfolio.js"></script>
+</body>
+</html>
